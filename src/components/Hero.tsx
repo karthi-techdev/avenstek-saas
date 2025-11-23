@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { ChevronRight, Play } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Particles } from './Particles';
-import heroBanner from '../public/assets/images/hero-home.png'
+import heroBanner from '../../public/assets/images/hero-home.png'
 
 export const Hero: React.FC = () => {
   const { scrollY } = useScroll();
