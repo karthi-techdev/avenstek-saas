@@ -75,7 +75,7 @@ export const Pricing: React.FC<PricingProps> = ({ showParticles = true }) => {
             <div className="relative w-12 h-7 bg-[#1A1D21] rounded-full border border-white/10 transition-colors group-hover:border-white/20">
               <motion.div 
                 className="absolute top-[3px] left-[3px] w-5 h-5 bg-primary rounded-full shadow-lg"
-                animate={{ x: billingCycle === 'annual' ? 17 : 0 }}
+                animate={{ x: billingCycle === 'annual' ? 20 : 0 }}
                 initial={false}
                 transition={{ type: "spring", stiffness: 500, damping: 30 }}
               />
