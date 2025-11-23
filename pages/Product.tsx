@@ -43,7 +43,7 @@ const Product: React.FC = () => {
              <button className="h-12 px-8 bg-white text-black font-bold rounded-[.50rem] hover:bg-gray-200 transition-colors shadow-lg shadow-white/10">
                Start Building Free
              </button>
-             <Link to="/docs" className="h-12 flex items-center px-8 bg-white/5 border border-white/10 text-white font-bold rounded-[.50rem] hover:bg-white/10 transition-colors">
+             <Link to="/docs" className="h-12 flex flex-col justify-center items-center px-8 bg-white/5 border border-white/10 text-white font-bold rounded-[.50rem] hover:bg-white/10 transition-colors">
                View Documentation
              </Link>
            </div>
