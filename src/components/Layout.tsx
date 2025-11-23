@@ -5,7 +5,7 @@ import { Menu, X, Twitter, Github, Linkedin, ChevronRight, ArrowRight, Mail } fr
 import { motion, AnimatePresence } from 'framer-motion';
 import { NAV_ITEMS } from '../../constants';
 import { SubscribeModal } from './SubscribeModal';
-import logo from '../public/assets/images/logo.png'
+import logo from '../../public/assets/images/logo.png'
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
