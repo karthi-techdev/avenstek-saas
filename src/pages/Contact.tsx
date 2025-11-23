@@ -9,7 +9,7 @@ const Contact: React.FC = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="min-h-screen pt-20 overflow-x-hidden"
+      className="min-h-screen pt-19 overflow-x-hidden"
     >
       {/* Hero Section */}
       <section className="relative px-6 py-24 md:py-32 text-center overflow-hidden min-h-[100vh] flex flex-col justify-center items-center">
