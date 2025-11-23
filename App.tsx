@@ -1,0 +1,70 @@
+
+import React, { useEffect } from 'react';
+import { HashRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
+import { Layout } from './components/Layout';
+import Home from './pages/Home';
+import Product from './pages/Product';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Careers from './pages/Careers';
+import JobView from './pages/JobView';
+import Blog from './pages/Blog';
+import BlogView from './pages/BlogView';
+import Privacy from './pages/Privacy';
+import Terms from './pages/Terms';
+import CookieSettings from './pages/CookieSettings';
+import Changelog from './pages/Changelog';
+import Documentation from './pages/Documentation';
+import { Pricing } from './components/Pricing'; 
+
+// Placeholder pages for routing completeness
+const Placeholder: React.FC<{ title: string }> = ({ title }) => (
+  <div className="min-h-[60vh] flex items-center justify-center text-white">
+    <div className="text-center">
+      <h1 className="text-4xl font-bold mb-4">{title}</h1>
+      <p className="text-gray-400">Page under construction for Avenstek Demo.</p>
+    </div>
+  </div>
+);
+
+// Component to handle scroll restoration on route change
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
+
+const App: React.FC = () => {
+  return (
+    <HashRouter>
+      <ScrollToTop />
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/product" element={<Product />} />
+          <Route path="/pricing" element={<div className="pt-10"><Pricing /></div>} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/careers" element={<Careers />} />
+          <Route path="/careers/:id" element={<JobView />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:id" element={<BlogView />} />
+          <Route path="/changelog" element={<Changelog />} />
+          <Route path="/docs" element={<Documentation />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/terms" element={<Terms />} />
+          <Route path="/cookies" element={<CookieSettings />} />
+          <Route path="/login" element={<Placeholder title="Login to Flownyx" />} />
+          <Route path="/signup" element={<Placeholder title="Create Account" />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
+      </Layout>
+    </HashRouter>
+  );
+};
+
+export default App;
