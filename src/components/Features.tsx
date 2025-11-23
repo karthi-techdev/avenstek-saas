@@ -2,7 +2,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { motion, AnimatePresence, useAnimation } from 'framer-motion';
 import { KanbanSquare, BarChart3, Users, Zap, ArrowRight, Search, GitBranch } from 'lucide-react';
-import productMarketplace from '../public/assets/images/product-marketplace.png'
+import productMarketplace from '../../public/assets/images/product-marketplace.png'
 
 // Reusable Bento Card Container
 const BentoCard: React.FC<{ 
