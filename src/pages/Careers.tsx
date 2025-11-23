@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Particles } from '../components/Particles';
 import { ArrowRight, Globe, Heart, Zap, Clock, Shield, Smile } from 'lucide-react';
-import { JOB_OPENINGS } from '../constants';
+import { JOB_OPENINGS } from '../../constants';
 
 const BENEFITS = [
   { icon: Globe, title: "Remote First", desc: "Work from anywhere in the world. We trust you to do your best work." },

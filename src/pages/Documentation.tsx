@@ -1,9 +1,9 @@
 
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { Search, ChevronRight, Book, Code2, Terminal, Layers, Menu, X, Copy, Check } from 'lucide-react';
-import productCreate from "../public/assets/images/product-create.png";
+import { Search, ChevronRight, Layers, Menu, X, Copy, Check } from 'lucide-react';
+import productCreate from "../../public/assets/images/product-create.png";
 
 const SECTIONS = [
   {

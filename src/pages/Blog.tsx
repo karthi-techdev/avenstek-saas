@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Particles } from '../components/Particles';
 import { User, ArrowRight, Clock, Mail, Zap, MessageSquare } from 'lucide-react';
-import { BLOG_POSTS } from '../constants';
+import { BLOG_POSTS } from '../../constants';
 import { SubscribeModal } from '../components/SubscribeModal';
 
 const Blog: React.FC = () => {

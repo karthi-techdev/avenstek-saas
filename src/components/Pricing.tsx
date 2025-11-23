@@ -2,8 +2,8 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Check, Sparkles, Building2, ArrowRight, MessageSquare } from 'lucide-react';
-import { BillingCycle, PlanType } from '../types';
-import { SMALL_BUSINESS_PLANS, ENTERPRISE_PLANS } from '../constants';
+import { BillingCycle, PlanType } from '../../types';
+import { SMALL_BUSINESS_PLANS, ENTERPRISE_PLANS } from '../../constants';
 import { Particles } from './Particles';
 import { Link } from 'react-router-dom';
 

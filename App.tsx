@@ -1,21 +1,21 @@
 
 import React, { useEffect } from 'react';
 import { HashRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
-import { Layout } from './components/Layout';
-import Home from './pages/Home';
-import Product from './pages/Product';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Careers from './pages/Careers';
-import JobView from './pages/JobView';
-import Blog from './pages/Blog';
-import BlogView from './pages/BlogView';
-import Privacy from './pages/Privacy';
-import Terms from './pages/Terms';
-import CookieSettings from './pages/CookieSettings';
-import Changelog from './pages/Changelog';
-import Documentation from './pages/Documentation';
-import { Pricing } from './components/Pricing'; 
+import { Layout } from './src/components/Layout';
+import Home from './src/pages/Home';
+import Product from './src/pages/Product';
+import About from './src/pages/About';
+import Contact from './src/pages/Contact';
+import Careers from './src/pages/Careers';
+import JobView from './src/pages/JobView';
+import Blog from './src/pages/Blog';
+import BlogView from './src/pages/BlogView';
+import Privacy from './src/pages/Privacy';
+import Terms from './src/pages/Terms';
+import CookieSettings from './src/pages/CookieSettings';
+import Changelog from './src/pages/Changelog';
+import Documentation from './src/pages/Documentation';
+import { Pricing } from './src/components/Pricing'; 
 
 // Placeholder pages for routing completeness
 const Placeholder: React.FC<{ title: string }> = ({ title }) => (

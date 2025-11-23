@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, MapPin, Briefcase, DollarSign, CheckCircle2, ArrowRight } from 'lucide-react';
-import { JOB_OPENINGS } from '../constants';
+import { JOB_OPENINGS } from '../../constants';
 
 const JobView: React.FC = () => {
   const { id } = useParams<{ id: string }>();

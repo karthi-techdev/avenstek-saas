@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Twitter, Github, Linkedin, ChevronRight, ArrowRight, Mail } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { NAV_ITEMS } from '../constants';
+import { NAV_ITEMS } from '../../constants';
 import { SubscribeModal } from './SubscribeModal';
 import logo from '../public/assets/images/logo.png'
 

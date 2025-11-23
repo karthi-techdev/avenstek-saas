@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FEATURES_LIST } from '../constants';
+import { FEATURES_LIST } from '../../constants';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 import { Particles } from '../components/Particles';
 import { BookDemoModal } from '../components/BookDemoModal';

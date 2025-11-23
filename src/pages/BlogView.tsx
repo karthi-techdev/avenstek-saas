@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, Share2, Twitter, Linkedin, Facebook } from 'lucide-react';
-import { BLOG_POSTS } from '../constants';
+import { BLOG_POSTS } from '../../constants';
 
 const BlogView: React.FC = () => {
   const { id } = useParams<{ id: string }>();
