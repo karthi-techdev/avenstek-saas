@@ -85,10 +85,10 @@ const Navbar: React.FC = () => {
 
           {/* Right Actions */}
           <div className="hidden md:flex items-center gap-1 shrink-0">
-             <Link to="https://kanban-board-test-one.vercel.app/#/login" className="px-5 py-2.5 text-sm font-medium text-gray-400 hover:text-white transition-colors">
+             <Link to="https://kanban-board-test-one.vercel.app/login" className="px-5 py-2.5 text-sm font-medium text-gray-400 hover:text-white transition-colors">
                Log in
              </Link>
-             <Link to="https://kanban-board-test-one.vercel.app/#/login" className="px-6 py-2.5 bg-white text-darker text-sm font-bold rounded-[.40rem] hover:bg-gray-200 transition-all transform hover:scale-105 shadow-lg shadow-white/5">
+             <Link to="https://kanban-board-test-one.vercel.app/login" className="px-6 py-2.5 bg-white text-darker text-sm font-bold rounded-[.40rem] hover:bg-gray-200 transition-all transform hover:scale-105 shadow-lg shadow-white/5">
                Get Started
              </Link>
           </div>
