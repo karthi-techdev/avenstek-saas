@@ -43,7 +43,7 @@ export const Hero: React.FC = () => {
           className="text-4xl md:text-7xl lg:text-8xl font-black tracking-[-0.04em] text-white mb-6 leading-[1.1] md:leading-[1.05] max-w-4xl mx-auto drop-shadow-2xl"
         >
           Work Moves Faster With 
-          <span className="text-transparent bg-clip-text bg-gradient-to-b from-white to-white/40 !font-decog tracking-[.05rem]"> Flownyx.</span>
+          <span className="text-transparent bg-clip-text bg-gradient-to-b from-white to-white/40 font-decog tracking-[.05rem]"> Flownyx.</span>
         </motion.h1>
 
         {/* Subheadline */}
